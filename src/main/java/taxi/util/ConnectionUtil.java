@@ -6,9 +6,9 @@ import java.sql.SQLException;
 import java.util.Properties;
 
 public class ConnectionUtil {
-    private static final String URL = "";
-    private static final String USERNAME = "";
-    private static final String PASSWORD = "";
+    private static final String URL = "URL";
+    private static final String USERNAME = "USERNAME";
+    private static final String PASSWORD = "PASSWORD";
     private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 
     static {
