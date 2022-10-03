@@ -13,7 +13,8 @@
 
 
 ### *Description*
-Implement a simple taxi service that allows for the management of cars, drivers, and manufacturers. The application is designed following REST, and CRUD and based on 3-tier architecture.
+This is a taxi service application for the management of cars, drivers, and manufacturers.
+The application is designed following REST, and CRUD and based on 3-tier architecture.
 
 ------------
 
@@ -44,10 +45,12 @@ The project uses Java Servlet and JSP for processing requests from clients.
 Tomcat Server is used as a servlet container.
 Data storage is relational database MySQL. Access to the database is implemented by JDBC technology.
 The list of used technologies and tools:
+- Java 11
 - Servlet
 - JSP
 - JSTL
 - Tomcat
+- MySQL
 - JDBC
 - Google Cloud
 - Heroku
@@ -55,8 +58,12 @@ The list of used technologies and tools:
 
 ------------
 
-### *Instructions*
+### *How to run project*
 
+##### Requirenments
+- Java 11
+- Tomcat 9.0.50
+- MySQL 8.0.30
 
 Instruction to compile and launch the application.
 1. Set up database structure. You can execute SQL script **src/main/resources/init_db.sql** in any admin panel of your MySQL.
