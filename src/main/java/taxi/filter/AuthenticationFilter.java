@@ -30,6 +30,10 @@ public class AuthenticationFilter implements Filter {
         HttpServletResponse resp = (HttpServletResponse) response;
         HttpSession session = req.getSession();
         Long driverId = (Long) session.getAttribute("driver_id");
+        if (driverId != null && req.getServletPath().equals("/login")) {
+            resp.sendRedirect("/index");
+            return;
+        }
         if (driverId == null && allowedUrls.contains(req.getServletPath())) {
             chain.doFilter(request, response);
             return;
