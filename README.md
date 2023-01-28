@@ -5,7 +5,7 @@
     * [*Description*](#description)
     * [*Features*](#features)
     * [*Technologies*](#technologies)
-    * [*Instructions*](#instructions)
+    * [*Instructions*](#how-to-run-project)
 <!-- TOC -->
 
 
@@ -60,7 +60,7 @@ The list of used technologies and tools:
 
 ### *How to run project*
 
-##### Requirenments
+##### Requirements
 - Java 11
 - Tomcat 9.0.50
 - MySQL 8.0.30
@@ -71,4 +71,4 @@ Instruction to compile and launch the application.
 3. Configure Tomcat server: add artifact for deploying.
 4. Run Tomcat configuration.
 
-You can test the application at the next address https://arcane-taiga-63211.herokuapp.com
+You can test the application at the next address http://taxiapp.eu-west-3.elasticbeanstalk.com
